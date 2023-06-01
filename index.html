@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>CRUDS</h1>
+      <h5>PRODUCT MANAGEMENT SYSTEM</h5>
+    </header>
+    <main>
+      <section class="inputs">
+        <input type="text" placeholder="title" id="title" />
+        <div class="container">
+          <input type="number" placeholder="price" id="price"  onkeyup="getTotal()"/>
+          <input type="number" placeholder="taxes" id="taxes" onkeyup="getTotal()"/>
+          <input type="number" placeholder="ads" id="ads" onkeyup="getTotal()"/>
+          <input type="number" placeholder="discount" id="discount" onkeyup="getTotal()"/>
+          <small id="total">0</small>
+        </div>
+        <input type="text" id="count" placeholder="count" />
+        <input type="text" id="category" placeholder="category" />
+        <button id="submit">Create</button>
+      </section>
+      <section class="outputs">
+        <input onkeyup="searchData(this.value)" type="text" placeholder="search" id="search" />
+        <div id="search-buttons">
+          <button onclick="getSearchMood(this.id)" id="searchTitle">Search By Name</button>
+          <button onclick="getSearchMood(this.id)" id="searchCategory">Search By Category</button>
+        </div>
+        <div id="deleteAll"></div>
+        <table>
+          <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>total</th>
+            <th>category</th>
+            <th>update</th>
+            <th>delete</th>
+          </tr>
+          <tbody id="tbody">
+            <tr>
+              <td>1</td>
+              <td>samsung</td>
+              <td>1000</td>
+              <td>200</td>
+              <td>iphone</td>
+              <td>150</td>
+              <td>450</td>
+              <td>2600</td>
+              <td><button id="update">Update</button></td>
+              <td><button id="delete">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

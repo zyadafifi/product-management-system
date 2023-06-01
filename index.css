@@ -1,0 +1,193 @@
+header{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: rgb(53, 49, 49);
+}
+main{
+    text-align: center;
+}
+#title{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 295px;
+}
+
+small{
+    text-align: center;
+    color: white;
+    
+}
+#category{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#count{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#submit{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(218, 75, 218);
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#search{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+#search-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 18px;
+}
+#searchTitle{
+    width: 650px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+input{
+    color: white;
+}
+#searchCategory{
+    width: 650px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+
+
+}
+#price{
+    color: white;
+    width: 250px;
+    background-color: black;
+    height: 30px;
+    border-style: none;
+    font-size: 20px;
+}
+#title{
+    width: 1300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#taxes{
+    width: 250px;
+    background-color: black;
+    height: 30px;
+    border-style: none;
+    font-size: 20px;
+}
+#ads{
+    width: 250px;
+    background-color: black;
+    height: 30px;
+    border-style: none;
+    font-size: 20px;
+}
+#discount{    
+    width: 250px;
+    background-color: black;
+    height: 30px;
+    border-style: none;
+    font-size: 20px;
+}
+#total{
+    background-color: red;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: 'Total: ';
+}
+button:hover{
+    background-color: rgb(39, 117, 180);
+    letter-spacing: 1px;
+
+}
+button{
+    transition: 0.1s;
+    cursor: pointer;
+}
+table{
+    color: white;
+    width: 1300px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+th{
+    text-transform: uppercase;
+}
+td{
+    padding-top: 10px;
+    font-size: 20px;
+}
+#dleteall{
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(218, 75, 218);
+    border-style: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#update{
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
+#delete{
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+}
